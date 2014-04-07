@@ -1,0 +1,333 @@
+/* CSS Document */
+body{
+background-color: white;
+}
+article{
+	background-color: white;
+
+}
+header {
+	background: url(../images/Aheader1500x522.png);
+	background-repeat: no-repeat;
+	/* taking w and h out for now to try background contain . . width: 100%;
+	height:500px;*/
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	height: 500px;
+}
+.aboutus{
+	padding-left: 622px;
+
+}
+/* (was using this with header image in the header tag, class=.headerimage{
+	width: 100%;
+	margin-top: -33px;*/
+.nav{
+	padding-top: 20px;
+	padding-left: 135px;
+}
+
+
+.topnav{
+	margin-top: 5px;
+	position: relative;
+	list-style-type: none;
+	
+
+
+}
+.topnav li{
+	display: inline-block;
+}
+.leftcol{
+	width: 65%;
+	background-color: white;
+	float: left;
+	padding: 3px 15px 10px 15px;
+
+}
+h1{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 300%;
+	color: #093366;
+
+}
+.authorleft{
+	height: 50px;
+	background-color: white;
+	padding-left: 15px;
+	padding-top: 15px;
+
+
+}
+.authorleft a{
+	text-decoration: none;
+}
+.al{
+	display: inline;
+}
+.lefttext{
+
+}
+.lefttext p{
+	font-family: Helvetica;
+}
+
+h2{
+	font-size: 215%;
+	font-family: Helvetica;
+	color: #093366;
+}		
+
+h2::first-letter{
+	color: gray;
+	font-size: 235%;
+	font-family:'Lato', sans-serif;
+}
+
+}
+.interact{
+
+}
+.comments{
+	display: inline-block;
+	padding-left: 120px;
+	padding-right: 15px;
+
+}
+
+.comments a img{
+	-webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.comments a img:hover{
+	opacity: 0.3;
+
+
+}
+
+.later{
+	display: inline-block;
+	padding-right: 15px;
+	
+}
+/later a img{
+	/*-webkit-transition: transform 2s ease-in-out;
+	-moz-transition: transform 2s ease-in-out;
+  	-o-transition: transform 2s ease-in-out;
+  	transition: rotate(90deg) 2s ease-in-out;*/
+}
+.later a img:hover{
+  /*-webkit-transform: rotate(90deg);*/
+  		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+
+}
+.share{
+	display: inline-block;
+}
+.share a img{
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+}
+.share a img:hover{
+	height: 45px;
+	width: 200px;
+	-webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+.rightcol{
+	width: 25%;
+	background-color: white;
+	float: left;
+	padding: 10px;
+
+}
+.authorright img{
+	display: block;
+	margin: auto;
+	border: none;
+	-webkit-transition: padding-top 2s, -webkit-transform 2s;
+	transition: padding-top 2s, transform 2s;
+
+
+}
+.authorright img:hover{
+	padding-bottom: 50px;
+	overflow: hidden;
+	-webkit-transform:rotate(180deg);
+	transform: rotate(180deg);
+
+}
+
+.socialmedia{
+	height: 40px;
+	margin-top: -10px;
+	padding-bottom: 5px;
+}
+.socialmedia ul{
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+.socialmedia ul li{
+	display: inline;
+	list-style-type: none;
+}
+.socialmedia ul li a{
+	text-decoration: none;
+	color: gray;
+}
+aside{
+	padding-left: 15px;
+
+}
+h3{
+	color: #192D57;
+
+}
+.righttext{
+
+}
+.righttext p{
+	font-family: Helvetica;
+}
+.bottomrow{
+	display: inline-block;
+	width: 100%;
+	background-color: #192D57;
+	clear:both;
+	margin-top: 100px;
+}
+
+h4{
+	font-family: Helvetica;
+	font-size: 300%;
+	text-align: center;
+	color: white;
+
+}
+.post1{
+	display: inline-block;
+	background-color: #192D57;
+	width: 23%;
+	margin-left: 40px;
+	
+}
+.post1 img{
+	width:100%;
+	opacity: 0.6;
+}
+.post1 a img:hover{
+	opacity: 1.0;
+}
+
+.posttitle{
+	position:absolute;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 150%;
+	margin-top: -100px;
+	color: white;
+	margin-left: 37px;
+}
+
+
+.post2{
+	display: inline-block;
+	background-color: #192D57;
+	width: 23%;
+	margin-left: -5px;
+}
+.post2 img{
+	width: 100%;
+	opacity: 0.6;
+}
+.post2 a img:hover{
+	opacity: 1.0;
+}
+.post3{
+	display: inline-block;
+	background-color: #192D57;
+	width: 23%;
+	margin-left: -5px;
+}
+.post3 img{
+	width: 100%;
+	opacity: 0.6;
+}
+.post3 a img:hover{
+	opacity: 1.0;
+}
+.post4{
+	display: inline-block;
+	background-color: #192D57;
+	width:23%;
+	margin-left: -5px;
+}
+.post4 img{
+	width: 100%;
+	opacity: 0.6;
+}
+.post4 a img:hover{
+	opacity: 1.0;
+}
+/*h5{
+	color: black;
+}
+h5:hover{
+	color: white;*/
+
+
+/*.popposts{
+	display: inline-block;
+	background-color: blue;
+	width: 100%;
+	padding-left: 25px;
+}
+.bottomrow img{
+	width: 24%;
+	opacity: 0.5;
+}
+.bottomrow a img:hover{
+	opacity: 1.0;
+	width: 23%;
+}*/
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: #192D57;
+	padding-top: 15px;
+
+}
+footer img{
+	margin-left: 35px;
+}
+footer ul li{
+	color: #E2DFDE;
+}
+.bottomnav{
+	float: right;
+	margin-right: 20px;
+}
+.bottomnav li{
+	display: inline;
+	list-style-type: none;
+
+
+}
+.bottomnav li a{
+	text-decoration: none;
+	color: inherit;
+}
+
